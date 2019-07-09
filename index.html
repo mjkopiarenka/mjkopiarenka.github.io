@@ -14,6 +14,10 @@
     <!-- Start CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- End CSS -->
+
+    <!-- Start JS -->
+    <script src="js/function.js"></script>
+    <!-- End JS-->
 </head>
 <body>
     <!-- Start Logo -->
@@ -51,29 +55,31 @@
         </ul>
     </div>
     <!-- End Menu Primer -->
-    
+
     <!-- Start Effect -->
-    <figure class="snip1573">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample89.jpg" alt="sample89" />
-        <figcaption>
-          <h3>Buy Now</h3>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
-      <figure class="snip1573 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample94.jpg" alt="sample94" />
-        <figcaption>
-          <h3>Read More</h3>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
-      <figure class="snip1573"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample92.jpg" alt="sample92" />
-        <figcaption>
-          <h3>Join Us</h3>
-        </figcaption>
-        <a href="#"></a>
-      </figure>
+    <div class="container">
+        <figure class="snip1573">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample89.jpg" alt="sample89" />
+            <figcaption>
+            <h3>Buy Now</h3>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+        <figure class="snip1573 hover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample94.jpg" alt="sample94" />
+            <figcaption>
+            <h3>Read More</h3>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+        <figure class="snip1573"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample92.jpg" alt="sample92" />
+            <figcaption>
+            <h3>Join Us</h3>
+            </figcaption>
+            <a href="#"></a>
+        </figure>
+    </div>
     <!-- End Effect -->
-    
+
     <!-- Start Jumbotron -->
     <div class="container jumbotron">
         <h1>
@@ -257,5 +263,22 @@
         <a href="https://www.facebook.com/KopiArenka-1203727323137835/" title="Link Menuju Halaman Facebook">Halaman Facebook Kami</a>
     </div>
     <!-- End Media Sosial Sekunder -->
+
+    <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+62 82169661293", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+
 </body>
 </html>
