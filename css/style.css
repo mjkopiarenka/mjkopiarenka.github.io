@@ -4,7 +4,8 @@
 
 /* Start Body*/
 body{
-    background-color: #ddcfb6;
+    background-color: #E5A640;
+    background-image: url(../images/Coffee-Beans-Transparent-Background.png);
     color: crimson; 
     font-family: Boogaloo, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -43,14 +44,17 @@ label {
 
 /* Start Logo */
 .logo {
-    text-align: center;
+    background-size: contain;
+    margin: -80px auto;
+    float: right;
+    text-align: right;
 }
 /* End Logo */
 
 /* Start Anchor / hyperlink */
 a:link,
 a:visited {
-    color: orangered;
+    color: seagreen;
     text-decoration: none;
 }
 a:hover,
@@ -68,6 +72,7 @@ a:active {
         0 3px 5px -1px yellowgreen,
         0 6px 10px 0 yellowgreen,
         0 1px 10px 0 yellowgreen;
+    
 }
 
 .menu-primer li {
@@ -123,9 +128,9 @@ h6 {
 
 /* Start Jumbotron*/
 .jumbotron {
-    background-color: cadetblue;
-    border: 1px solid darkblue;
-    border-radius: 4px;
+    background-color: #E5987B;
+    border: 1px solid #838E31;
+    border-radius: 6px;
     padding: 20px 0;
 }
 .jumbotron h1 {
@@ -173,10 +178,15 @@ h6 {
 }
 /* End Sidebar */
 
+
+.center{
+    text-align: center;
+}
+
 /* Start Box */
 .box-heading {
-    background-color: thistle;
-    border: 1px solid blueviolet;
+    background-color: #D87834;
+    border: 1px solid #406612;
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -420,5 +430,9 @@ input [type="submit"],
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
+}
+
+.center {
+    text-align: center;
 }
 /* End Effect */
